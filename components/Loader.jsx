@@ -1,11 +1,16 @@
 import React from 'react'
-import { ActivityIndicator, View } from 'react-native'
+import { ActivityIndicator, View, Dimensions, Platform } from 'react-native'
 
 const Loader = ({ isLoading }) => {
+  const osName = Platform.OS;
+  const screenHeight = Dimensions.get("screen").height;
+
+  if (isLoading) return null;
+
   return (
     <View
         className="absolute flex justify-center items-center w-full h-full bg-primary/69 z-10"
-        style={{height: ScreenStackHeaderRightView,
+        style={{height: screenHeight,
         }}>
         <ActivityIndicator 
             animating={isLoading}

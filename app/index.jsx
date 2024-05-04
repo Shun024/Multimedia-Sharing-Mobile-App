@@ -5,6 +5,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { images } from '../constants';
 import CustomButton from "../components/CustomButton";
+import { Loader } from '../components';
 import { useGlobalContext } from "../context/GlobalProvider";
 
 const Welcome= () => {
