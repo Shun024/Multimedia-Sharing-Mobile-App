@@ -4,7 +4,8 @@ import { useLocalSearchParams } from 'expo-router'
 import useAppwrite from '../../lib/useAppwrite';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { FlatList } from 'react-native-gesture-handler';
-import { EmptyState, VideoCard } from '../../components';
+import { EmptyState, VideoCard, SearchInput } from '../../components';
+import { searchPosts } from "../../lib/appwrite";
 
 const Search = () => {
   const { query } = useLocalSearchParams();

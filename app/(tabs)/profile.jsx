@@ -59,19 +59,19 @@ const Profile = () => {
                 resizeMode="cover" />
             </View>
 
-            <Infobox
+            <InfoBox
             title={user?.username}
             containerStyles="mt-5"
             titleStyles="text-1g" />
             <View className="mt-5 flex flex-row">
-              <Infobox
+              <InfoBox
                 title={posts.length || 0}
                 subtitle="Posts"
                 titleStyles="text-xl"
                 containerStyles="mr-10" />
-              <Infobox
+              <InfoBox
                 title="1.2k"
-                subtitle="Followeres"
+                subtitle="Followers"
                 titleStyles="text-xl" />
             </View>
           </View>
