@@ -68,4 +68,5 @@ npm start
 
 Download the [Expo Go](https://expo.dev/go) app onto your device, then use it to scan the QR code from Terminal and run.
 
-**Inspiration from https://youtu.be/ZBCUegTZF7M?si=TJtyknMTsfPWe0tU
+## Others
+Inspiration from https://youtu.be/ZBCUegTZF7M?si=TJtyknMTsfPWe0tU
