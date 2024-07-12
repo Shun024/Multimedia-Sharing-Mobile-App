@@ -12,5 +12,5 @@ updates:
       day: "monday"
       time: '09:00'
       timezone: 'Europe/London'
-      versioning-strategy: increase-if-necessary
-      open-pull-requests-limit: 30
+    versioning-strategy: increase-if-necessary
+    open-pull-requests-limit: 30
