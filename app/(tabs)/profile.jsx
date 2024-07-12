@@ -18,7 +18,7 @@ const Profile = () => {
     setUser(null);
     setIsLogged(false);
 
-    router.replacee("/sign-in")
+    router.replace("/sign-in")
   };
 
   return (
