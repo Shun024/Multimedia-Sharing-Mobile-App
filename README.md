@@ -47,8 +47,8 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/adrianhajdin/aora.git
-cd aora
+git clone https://github.com/Shun024/Multimedia-Sharing-Mobile-App.git
+cd Multimedia-Sharing-Mobile-App
 ```
 **Installation**
 
